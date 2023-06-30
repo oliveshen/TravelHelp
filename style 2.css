@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#banner{
+	width:100%;
+    height:100vh;
+}
+
+#bannerDesc > p{
+    font-size : 25px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#bannerDesc > h3{
+    font-size:32px;
+    line-height: 40px;
+}
+
+.name{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.map{
+    height:220px;
+}
+
+.post{
+    width: 220px;
+    height:294px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#top{
+    display: flex;
+}
+
+
+#banner{
+    width: 100%;
+    position: relative;
+}
+#bannerDesc{
+    width: 45%;
+    height: 30vh;
+    padding 3%;
+    text-align: justify;
+    border-radius: 20px;
+    position: absolute;
+    top:35%;
+    left:1%;
+}
+
+#bannerDesc> p{
+    font-size:25px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+    font-weight: bold;
+}
+
+#bannerDesc>h3{
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  padding: 50px;
+  background-color: #f2f2f2;
+  height: 500px;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: black;
+
+}
+.name{
+    text-underline:none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space evenly;
+  margin top: 2%;
+}
+
+.country {
+ flex:1;
+ text-align: center;
+}
+
+.desc{
+    margin: 1%;
+    padding:1%;
+}
+.social{
+    width: 60px;
+    height:60px;
+    padding:1%;
+}
+
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#contactBox{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{ 
+  padding:2%;
+}
